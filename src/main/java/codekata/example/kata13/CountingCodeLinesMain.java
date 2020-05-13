@@ -9,7 +9,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.stream.Stream;
 
-public class CountingCodeLines {
+public class CountingCodeLinesMain {
 
     public static final String INDENT_SYMBOL = " ";
 
