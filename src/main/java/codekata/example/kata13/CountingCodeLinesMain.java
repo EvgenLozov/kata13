@@ -42,7 +42,7 @@ public class CountingCodeLinesMain {
 
     private static void printDir(File dir, int indent, Map<String, Integer> codeLinesStats) {
 
-        System.out.println(repeat(INDENT_SYMBOL, indent) + dir.getName() + " : " + codeLinesStats.get(dir.getAbsolutePath()));
+        System.out.println(repeat(INDENT_SYMBOL, indent) + dir.getName() + " : " + codeLinesStats.get(dir.getPath()));
 
         File[] listFiles = dir.listFiles();
 
